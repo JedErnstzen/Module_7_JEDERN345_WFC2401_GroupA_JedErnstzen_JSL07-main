@@ -18,7 +18,7 @@ h1 {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
+} 
 
 label {
   display: block;
@@ -29,12 +29,15 @@ label {
 
 input {
   display: block;
-  width: 100%;
+  width: 50%;
+  height: 32px;
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 button {
@@ -45,7 +48,7 @@ button {
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s;
-  width: 100%;
+  width: 50%;
   font-size: 16px;
   display: block;
   margin: 0 auto;
