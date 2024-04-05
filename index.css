@@ -47,6 +47,8 @@ button {
   transition: background-color 0.3s;
   width: 100%;
   font-size: 16px;
+  display: block;
+  margin: 0 auto;
 }
 
 button:hover {
@@ -54,7 +56,6 @@ button:hover {
 }
 
 /* Certificate Modal */
-
 .modal {
   max-width: 800px;
   margin: 0 auto;

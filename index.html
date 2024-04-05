@@ -10,19 +10,20 @@
 <body>
     <h1>✨ Proud of Your Progress</h1>
     
-    <form id="cardForm">
-        <label for="studentName">Student's Name:</label>
-        <input type="text" id="studentName" required>
+<div class="container">
+  <form id="cardForm">
+    <label for="studentName">Student's Name:</label>
+    <input type="text" id="studentName" required>
 
-        <label for="personalMessage">Personalized Message:</label>
-        <input type="text" id="personalMessage" required>
-        
-        <label for="courseName">Course Name:</label>
-        <input type="text" id="courseName" required>
+    <label for="personalMessage">Personalized Message:</label>
+    <input type="text" id="personalMessage" required>
 
-        <button type="submit">Generate Certificate</button>
-    </form>
+    <label for="courseName">Course Name:</label>
+    <input type="text" id="courseName" required>
 
+    <button type="submit" class="generate-button">Generate Certificate</button>
+  </form>
+</div>
     <!-- Modal for displaying certificates -->
     <div id="modal" class="modal">
         <div class="modal-content">
