@@ -1,0 +1,115 @@
+body {
+    font-family: 'Raleway', serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+#cardForm {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+label,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #0074e4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056a7;
+}
+
+/* Certificate Modal */
+
+.modal {
+    max-width: 800px;
+    margin: 0 auto; /* Center horizontally */
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both vertically and horizontally */
+    z-index: 1;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    border: 3px solid #659f8f;
+  }
+  
+
+.modal-content::before {
+  content: "";
+  position: absolute;
+  top: -2px; right: -2px; bottom: -2px; left: -2px;
+  z-index: -1;
+  background: linear-gradient(#659f8f, #5d5f5e);
+  border-radius: 15px;
+}
+
+.modal-content::after {
+  content: "";
+  position: absolute;
+  top: -1px; right: -1px; bottom: -1px; left: -1px;
+  z-index: -2;
+  background: #fff;
+  border: 1px solid #dc7f5f;
+  border-radius: 15px;
+}
+
+#certificateContent {
+  font-family: 'Raleway', serif;
+  color: #333;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #dc7f5f;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+h1, .modal-content h2, .modal-content p {
+  color: #5d5f5e;
+}
+
+.close {
+  color: #dc7f5f;
+}
+
+/* Adding a fancy border to the certificate content */
+#certificateContent {
+  background: #f9f9f9 url('path/to/your/decorative-border-image.png') center/contain no-repeat;
+}
+
+/* Adjust button styles to fit the theme */
+button {
+  background-color: #659f8f;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #5d5f5e;
+}
+
